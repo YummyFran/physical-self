@@ -60,7 +60,6 @@ section.hero {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     gap: 1rem;
     height: 95vh;
     padding: calc(var(--triangle-size)/1.5) 0;
@@ -191,7 +190,7 @@ header .subtitle {
 }
 
 .cta {
-    padding: 2rem;
+    padding: 0 2rem;
 }
 
 .scroll {
@@ -222,8 +221,8 @@ header .subtitle {
     height: 15px;
     position: absolute;
     bottom: 0;
-    transform-origin: bottom;
-    transform: rotate(-45deg);
+    transform-origin: center bottom;
+    rotate: -45deg;
 }
 
 .arrow::after {
@@ -233,8 +232,8 @@ header .subtitle {
     height: 15px;
     position: absolute;
     bottom: 0;
-    transform-origin: bottom;
-    transform: rotate(45deg);
+    transform-origin: center bottom;
+    rotate: 45deg;
 }
 
 section.program {
