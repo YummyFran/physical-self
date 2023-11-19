@@ -138,6 +138,7 @@ section.hero {
 .welcome {
     font-size: min(1.2rem, 5vw);
     min-height: 2.2rem;
+    margin-bottom: 1rem;
 }
 
 header {
